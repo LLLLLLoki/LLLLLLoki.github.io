@@ -6,6 +6,7 @@ tags: PPO, TRL, LLaMA-Factory, RLHF, 大模型对齐
 math: true
 ---
 
+
 ## 一、模型组成
 1. **Actor（新策略）**：可训练，初始化权重 = SFT Reference模型；Transformer主干，输出token分布
 2. **Old Policy**：**无独立网络**；采样生成response时缓存当前Actor的 $\log\pi_{\text{old}}$，同一批样本多次梯度更新全程固定
