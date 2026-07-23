@@ -1,8 +1,8 @@
 title: LLLLLoki 的技术博客
 tagline: 学习记录 & 技术笔记
 description: 个人技术博客，记录编程学习与踩坑总结
-url: "https://LLLLLoki.github.io"
-baseurl: ""
+url: "https://llllloki.github.io"
+baseUrl: ""
 lang: "zh-CN"
 timezone: "Asia/Shanghai"
 
